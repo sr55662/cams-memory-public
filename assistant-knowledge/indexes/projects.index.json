@@ -1,12 +1,6 @@
 {
-  "schemaVersion": "1.0",
-  "updated": "2025-10-12T00:00:00Z",
-  "projects": [
-    {
-      "id": "cams",
-      "title": "CAMS Ensemble System",
-      "manifest": "https://raw.githubsr55662content.com/sr55662/cams-memory-public/main/projects/seed/manifest.json",
-      "fallbacks": []
-    }
-  ]
+    "schema":  "1.0",
+    "items":  [
+
+              ]
 }
