@@ -1,0 +1,3 @@
+{"ts":"2025-10-12T00:00:00Z","tag":"powershell","lesson":"Here-strings must close with '@ at column 1."}
+{"ts":"2025-10-12T00:00:00Z","tag":"git","lesson":"Use single-quoted commit messages to avoid unintended interpolation."}
+{"ts":"2025-10-12T00:00:00Z","tag":"merge","lesson":"Use envelope merge for numeric ranges; preserve explicit dissent."}

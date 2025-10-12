@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "merged_artifact.schema.json",
+  "type": "object",
+  "required": ["summary","scenarios","indicators","sources","dissent"],
+  "properties": {
+    "summary": {"type":"string"},
+    "scenarios": {"type":"array"},
+    "indicators": {"type":"array"},
+    "sources": {"type":"array"},
+    "dissent": {"type":"string"}
+  }
+}

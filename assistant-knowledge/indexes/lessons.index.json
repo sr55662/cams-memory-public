@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "1.0",
+  "updated": "2025-10-12T00:00:00Z",
+  "items": [
+    {
+      "id": "global-lessons",
+      "title": "Global Lessons",
+      "url": "https://raw.githubsr55662content.com/sr55662/cams-memory-public/main/assistant-knowledge/lessons/global.jsonl",
+      "format": "jsonl",
+      "weight": 1.0,
+      "fallbacks": []
+    },
+    {
+      "id": "cams-lessons",
+      "title": "CAMS Lessons",
+      "url": "https://raw.githubsr55662content.com/sr55662/cams-memory-public/main/assistant-knowledge/lessons/cams.jsonl",
+      "format": "jsonl",
+      "weight": 1.0,
+      "fallbacks": []
+    }
+  ]
+}

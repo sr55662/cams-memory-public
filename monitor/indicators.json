@@ -1,0 +1,9 @@
+{
+  "schemaVersion": "1.0",
+  "items": [
+    {"name":"merge_divergence","target":"0.25-0.40","cadence":"per-merge"},
+    {"name":"minority_view_rate","target":">=45%","cadence":"daily"},
+    {"name":"latency_p99_ratio","target":"<3.2x","cadence":"hourly"},
+    {"name":"cost_per_quality_point","target":"<$0.08","cadence":"daily"}
+  ]
+}

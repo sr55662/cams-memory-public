@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.0",
+  "id": "cams",
+  "name": "CAMS Ensemble System",
+  "owner": "shashank",
+  "status": "active",
+  "purpose": "Reusable multi-LLM collaboration with minimal human glue.",
+  "successCriteria": ["Lower cost/query", "Latency within SLA", "Preserve dissent"],
+  "sopLinks": [],
+  "checklists": [],
+  "lastUpdated": "2025-10-12T00:00:00Z"
+}

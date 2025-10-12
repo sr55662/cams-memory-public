@@ -1,0 +1,9 @@
+{
+  "schemaVersion": "1.0",
+  "models": [
+    {"id":"chatgpt","browsing":true,"maxTokens":16384,"mergeRole":"orchestrator"},
+    {"id":"claude","browsing":false,"maxTokens":200000,"mergeRole":"edge-cases"},
+    {"id":"gemini","browsing":true,"maxTokens":32000,"mergeRole":"creative"},
+    {"id":"grok","browsing":true,"maxTokens":32768,"mergeRole":"reasoning"}
+  ]
+}

@@ -1,0 +1,6 @@
+keys/*.json
+*.secret
+*.key
+.DS_Store
+Thumbs.db
+

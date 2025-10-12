@@ -1,0 +1,8 @@
+schemaVersion: "1.0"
+profiles:
+  - id: windows-desktop
+    os: windows
+    defaultPaths:
+      runsDir: "C:\\Users\\<you>\\Desktop\\cams-hub\\runs"
+      toolsDir: "C:\\Users\\<you>\\Desktop\\cams-hub\\tools"
+    encoding: "utf-8"
