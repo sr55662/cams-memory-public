@@ -1,0 +1,31 @@
+{
+  "machines": null,
+  "paths": [
+    "C:\\Users\\shashank rastogi\\Desktop\\cams-hub>",
+    "C:\\Users\\shashank rastogi\\Desktop\\cams-hub\\tools\\bootstrap_cams.ps1:16",
+    "C:\\Users\\shashank rastogi\\Desktop\\cams-hub\\tools\\bootstrap_cams.ps1:18",
+    "C:\\Users\\shashank rastogi\\Desktop\\cams-hub\\tools\\bootstrap_cams.ps1:139",
+    "C:\\Users\\shashank rastogi\\Desktop\\cams-hub).",
+    "C:\\Users\\shashank rastogi\\Desktop\\cams-hub",
+    "C:\\Users\\shashank rastogi\\Desktop\\cams-hub\\tools\\make_self_prompt.ps1:36",
+    "C:\\Users\\shashank rastogi\\Desktop\\cams-hub',",
+    "C:\\Users\\shashank rastogi\\Desktop\\cams-hub\\tools\\bootstrap_public_memory.ps1:218",
+    "C:\\Users\\shashank rastogi\\Desktop\\cams-hub\\cams-memory-public",
+    "C:\\Users\\...\\Desktop\\cams-hub\\chat-dumps",
+    "C:\\Users\\shashank rastogi\\Desktop\\cams-hub\\cams-memory-public\"",
+    "C:\\Users\\shashank rastogi\\Desktop\\cams-hub\\chat-dumps\"",
+    "C:\\Users\\shashank rastogi\\Desktop\\cams-hub\\chat-dumps",
+    "C:\\Users\\shashank rastogi\\Desktop\\cams-hub\\tools\\import_chats_to_memory.ps1",
+    "C:\\Users\\shashank rastogi\\Desktop\\cams-hub\\chat-dumps\\2025-10-12_current-session.md",
+    "C:\\Users\\shashank rastogi\\Desktop\\cams-hub\\tools\\import_chats_to_memory.ps1\"",
+    "C:\\Users\\shashank rastogi\\Desktop\\cams-hub\\chat-dumps\\datalake",
+    "C:\\Users\\shashank rastogi\\Desktop\\cams-hub\\chat-dumps\\ec2",
+    "C:\\Users\\shashank rastogi\\Desktop\\cams-hub\\chat-dumps\\datalake\"",
+    "C:\\Users\\shashank rastogi\\Desktop\\cams-hub\\chat-dumps\\ec2\"",
+    "C:\\Users\\shashank rastogi\\Desktop\\cams-hub\\tools\\tag_lessons.ps1\"",
+    "C:\\Users\\shashank rastogi\\Desktop\\cams-hub\\chat-dumps\\datalake\\2024-11-18_glue_partitions.md",
+    "C:\\Users\\shashank rastogi\\Desktop\\cams-hub\\chat-dumps\\ec2\\2025-01-06_ec2_user_data.md"
+  ],
+  "tools": "Python 3.12",
+  "notes": "CAMS protocol present"
+}
