@@ -1,0 +1,30 @@
+CAMS Ensemble Run (SELF BOOTSTRAP)
+Role: You are ChatGPT (orchestrator + lead analyst).
+Task: Produce an initial end-to-end analysis/plan for the topic below, then draft enhanced partner prompts (Claude/Gemini/Grok) to validate and extend the work in an open, testable way.
+
+- Use PowerShell here-strings with @' and '@ at column 1 (no indentation).
+- Use single-quoted commit/messages (avoid $var: patterns in literal strings).
+- Keep partner prompts link-agnostic.
+- Use envelope merge for numeric ranges; preserve dissent with rationale.
+- Default to conservative, reversible actions when ambiguous.
+
+Topic: black monday
+Objectives: this week closed as a updide down outside weekly bar on its low. do extensive macro/micro technical analysis to certain probablity of 1987 style black monday crash
+Owner: shashank
+Run: run_0005
+
+Apply lessons (most recent):
+{"tags":["powershell","robustness","tooling"],"fix":"Emit files from arrays of lines via File::WriteAllLines UTF-8 (no BOM). Never paste markdown fences into console.","title":"Avoid here-strings in bootstrap; use line arrays to prevent '@ terminator errors","date":"2025-10-12","problem":"Here-string terminator not at column 1 caused The string is missing the terminator: '@","id":"L-20251012-powershell-herestr"}
+{"id":"L-20251012-cams-bootstrap","scope":"system","tags":["CAMS","robustness","partners"],"fix":"Emit files from arrays; keep partner prompts self-contained; log lessons on every run","problem":"Parser errors from here-string terminators and markdown fences pasted into console","date":"2025-10-12","title":"No here-strings; safe UTF-8 writers; partner prompts link-independent"}
+{"id":"L-20251012-cams-generic-ensemble","title":"Generic chat-based ensemble orchestration without here-strings","fix":"Write files via UTF-8 arrays; make partner prompts link-independent; enforce strict JSON contracts.","guardrail":"All scripts avoid here-strings; never rely on clickable links in partner outputs; lessons.jsonl updated each run.","problem":"Previous scaffolds broke on here-string terminators and partner link usage.","scope":"system","tags":["CAMS","ensemble","partners","robustness","prompts"],"date":"2025-10-12"}
+
+Deliver NOW (in this chat):
+1) First-pass deliverable (narrative, scenarios/recs or concrete plan, indicators/criteria, step-by-step playbook).
+2) Draft partner prompts (plain text, link-agnostic) tailored to validate/improve the first pass.
+3) A short “next questions for user” list ONLY where truly blocking.
+4) A minimal PowerShell block (if needed) to set up any local files for this run.
+
+Constraints:
+- Be explicit, testable, and cost-conscious.
+- Prefer reversible steps when ambiguous.
+- No links required; if citing, use Source Name + date only.

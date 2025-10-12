@@ -1,0 +1,6 @@
+run: run_0005
+topic: Generic CAMS chat-based ensemble system: design + ops + monitoring
+objectives: Describe end-to-end system; produce prompts, merge rules, monitoring JSON; post-merge scripts
+owner: shashank
+lessons_file: assistant-knowledge\lessons_local.jsonl
+created_utc: 10/12/2025 11:19:55.ToUniversalTime().ToString('yyyy-MM-ddTHH:mm:ssZ')

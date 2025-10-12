@@ -1,6 +1,44 @@
 {
-    "schema":  "1.0",
-    "items":  [
-
-              ]
+  "schema": "1.0",
+  "items": [
+    {
+      "run": "run_0005",
+      "owner": "shashank",
+      "topic": "Generic CAMS chat-based ensemble system: design + ops + monitoring",
+      "objectives": "Describe end-to-end system; produce prompts, merge rules, monitoring JSON; post-merge scripts",
+      "ts_iso": "2025-10-12T15:49:52",
+      "artifacts": [
+        {
+          "path": "assistant-knowledge\\projects\\run_0005\\context_pack.md",
+          "raw": "https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/projects/run_0005/context_pack.md",
+          "size": 347,
+          "sha1": "a30188c1ef0e57338d7f41521a0f5179352c5dd5"
+        },
+        {
+          "path": "assistant-knowledge\\projects\\run_0005\\first_pass.md",
+          "raw": "https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/projects/run_0005/first_pass.md",
+          "size": 158,
+          "sha1": "13f04a0b7ad3ee80cb8a877e6f7accf6e0627769"
+        },
+        {
+          "path": "assistant-knowledge\\projects\\run_0005\\meta.txt",
+          "raw": "https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/projects/run_0005/meta.txt",
+          "size": 354,
+          "sha1": "0c4dc7f12aee3b3babd2794c5b52214e89889475"
+        },
+        {
+          "path": "assistant-knowledge\\projects\\run_0005\\monitoring.json",
+          "raw": "https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/projects/run_0005/monitoring.json",
+          "size": 135,
+          "sha1": "6dfcfd61378e9695e5c312224e0786e63bcfaab4"
+        },
+        {
+          "path": "assistant-knowledge\\projects\\run_0005\\SELF_PROMPT.txt",
+          "raw": "https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/projects/run_0005/SELF_PROMPT.txt",
+          "size": 2782,
+          "sha1": "77132b29e8c0ecbcf5271386f2c406fdf069646a"
+        }
+      ]
+    }
+  ]
 }

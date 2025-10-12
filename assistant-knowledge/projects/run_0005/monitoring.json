@@ -1,0 +1,7 @@
+﻿{
+  "schema":"1.0",
+  "run":"run_0005",
+  "indicators":[
+    {"name":"placeholder_metric","threshold":"n/a","cadence":"n/a"}
+  ]
+}

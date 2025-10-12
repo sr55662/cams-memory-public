@@ -1,0 +1,13 @@
+{
+  "run_id": "run_0005",
+  "owner": "shashank",
+  "topic": "Generic CAMS chat-based ensemble system: design + ops + monitoring",
+  "objectives": "Describe end-to-end system; produce prompts, merge rules, monitoring JSON; post-merge scripts",
+  "created_at": "2025-10-12T15:24:18.9680765-04:00",
+  "artifacts": [
+    "context_pack.md",
+    "manifest.json"
+  ],
+  "notes": "Asynchronous merge-before-consensus; deterministic meta-merge; cache-poisoning guard; here-strings + single-quoted commits.",
+  "schema": "cams.run.manifest/1.0"
+}
