@@ -1,6 +1,7 @@
-{
+﻿{
   "files": [
     { "name": "global", "url": "https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/lessons/global.jsonl" },
     { "name": "cams",   "url": "https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/lessons/cams.jsonl"   }
   ]
 }
+
