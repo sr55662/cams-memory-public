@@ -1,8 +1,11 @@
-schemaVersion: "1.0"
 profiles:
-  - id: windows-desktop
+  default:
+    owner: shashank
+    timezone: Asia/Kolkata
     os: windows
-    defaultPaths:
-      runsDir: "C:\\Users\\<you>\\Desktop\\cams-hub\\runs"
-      toolsDir: "C:\\Users\\<you>\\Desktop\\cams-hub\\tools"
-    encoding: "utf-8"
+    shells:
+      - pwsh
+    repos:
+      cams_memory_public: "~\\Desktop\\cams-hub\\cams-memory-public"
+    notes:
+      - "No secrets stored here. Keys/tokens are local-only via environment."

@@ -1,9 +1,7 @@
 {
-  "schemaVersion": "1.0",
-  "models": [
-    {"id":"chatgpt","browsing":true,"maxTokens":16384,"mergeRole":"orchestrator"},
-    {"id":"claude","browsing":false,"maxTokens":200000,"mergeRole":"edge-cases"},
-    {"id":"gemini","browsing":true,"maxTokens":32000,"mergeRole":"creative"},
-    {"id":"grok","browsing":true,"maxTokens":32768,"mergeRole":"reasoning"}
+  "tools": [
+    {"name": "pwsh", "platform": "windows", "min_version": "7.2", "notes": "Use -NoProfile for reproducibility"},
+    {"name": "git",  "platform": "all",     "min_version": "2.40", "notes": "CRLF safe on Windows"},
+    {"name": "gh",   "platform": "all",     "min_version": "2.0",  "notes": "Reads GITHUB_TOKEN if set"}
   ]
 }

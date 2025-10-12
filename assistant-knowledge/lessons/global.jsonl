@@ -1,36 +1,6 @@
-{"ts":"2025-10-12T00:00:00Z","tag":"powershell","lesson":"Here-strings must close with '@ at column 1."}
-{"ts":"2025-10-12T00:00:00Z","tag":"git","lesson":"Use single-quoted commit messages to avoid unintended interpolation."}
-{"ts":"2025-10-12T00:00:00Z","tag":"merge","lesson":"Use envelope merge for numeric ranges; preserve explicit dissent."}
-{
-  "ts": "2025-10-12T15:18:26.3181381-04:00",
-  "run_id": "run_0005",
-  "topic": "Generic CAMS chat-based ensemble system: design + ops + monitoring",
-  "objectives": "Describe end-to-end system; produce prompts, merge rules, monitoring JSON; post-merge scripts",
-  "lesson": "Asynchronous merge-before-consensus; enforce deterministic meta-merge; cache poisoning guard; here-strings + single-quoted commits.",
-  "guardrails": [
-    "Use here-strings with @' / '@ at col 1 in PowerShell",
-    "Single-quoted commit messages (no $var: patterns)",
-    "Include memory index URLs in self prompts",
-    "Envelope merge for numeric ranges; preserve dissent",
-    "Default to conservative, reversible actions when ambiguous"
-  ],
-  "manifest_rel": "assistant-knowledge/runs/run_0005/manifest.json",
-  "schema": "cams.lesson/1.0"
-}
-{
-  "ts": "2025-10-12T15:24:18.9680765-04:00",
-  "run_id": "run_0005",
-  "topic": "Generic CAMS chat-based ensemble system: design + ops + monitoring",
-  "objectives": "Describe end-to-end system; produce prompts, merge rules, monitoring JSON; post-merge scripts",
-  "lesson": "Asynchronous merge-before-consensus; deterministic meta-merge; cache-poisoning guard; here-strings + single-quoted commits.",
-  "guardrails": [
-    "Use here-strings with @' / '@ at col 1 in PowerShell",
-    "Single-quoted commit messages (no $var: patterns)",
-    "Include memory index URLs in self prompts",
-    "Envelope merge for numeric ranges; preserve dissent",
-    "Default to conservative, reversible actions when ambiguous"
-  ],
-  "manifest_rel": "assistant-knowledge/runs/run_0005/manifest.json",
-  "schema": "cams.lesson/1.0"
-}
-{"ts":"2025-10-12T15:49:52","run":"run_0005","owner":"shashank","topic":"Generic CAMS chat-based ensemble system: design + ops + monitoring","note":"Asynchronous merge-before-consensus; deterministic meta-merge; cache-poisoning guard; here-strings + single-quoted commits."}
+{"ts":"2025-10-12T00:00:00Z","topic":"powertools","lesson":"PowerShell here-strings must end with '@ on a line by itself at col 1."}
+{"ts":"2025-10-12T00:00:01Z","topic":"git","lesson":"Use single-quoted commit messages to avoid unintended $var interpolation."}
+{"ts":"2025-10-12T00:00:02Z","topic":"cams","lesson":"Deterministic meta-merge only (temperature=0 or fixed seed)."}
+{"ts":"2025-10-12T00:00:03Z","topic":"cams","lesson":"Normalize raw.githubusercontent.com URLs in all indexes."}
+{"ts":"2025-10-12T00:00:04Z","topic":"cams","lesson":"Cache poisoning guard for memory reads; short TTL or validation layer."}
+{"ts":"2025-10-12T00:00:05Z","topic":"ops","lesson":"Favor conservative, reversible steps when ambiguous."}

@@ -1,0 +1,32 @@
+CAMS Ensemble Run (SELF BOOTSTRAP)
+Role: You are ChatGPT (orchestrator + lead analyst).
+Task: Produce initial end-to-end analysis/plan for the topic, then draft partner prompts (Claude/Gemini/Grok) to validate/extend in an open, testable way.
+
+Topic: Generic CAMS chat-based ensemble system: design + ops + monitoring
+Objectives: Describe end-to-end system; produce prompts, merge rules, monitoring JSON; post-merge scripts
+Owner: shashank
+Run: run_0005
+
+Memory indexes (load first):
+- Lessons index:  https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/indexes/lessons.index.json
+- Env index:      https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/indexes/env.index.json
+- Projects index: https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/indexes/projects.index.json
+
+Apply lessons (latest from public memory):
+- Here-strings in PowerShell use @' / '@ at column 1
+- Use single-quoted commit messages (no $var: patterns)
+- Keep partner prompts link-agnostic
+- Envelope merge for numeric ranges; preserve dissent
+- Deterministic meta-merge (temp=0 / fixed seed)
+- Cache-poisoning guard + normalized raw URLs
+- Conservative, reversible actions when ambiguous
+
+Deliver NOW (in this chat):
+1) First-pass deliverable (narrative, scenarios/recs, indicators/criteria, step-by-step playbook).
+2) Draft partner prompts (plain text, link-agnostic) tailored to validate/improve the first pass.
+3) Minimal PowerShell (if needed) to create local run dirs (Windows-safe).
+4) Short blocking-questions list ONLY if truly necessary.
+
+Constraints:
+- Be explicit, testable, and cost-conscious.
+- Prefer reversible steps when ambiguous.
