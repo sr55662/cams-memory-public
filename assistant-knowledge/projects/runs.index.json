@@ -1,16 +1,23 @@
-{
-  "schema": "1.0",
-  "items": [
+﻿[
     {
-      "run": "run_0005",
-      "owner": "shashank",
-      "topic": "Generic CAMS chat-based ensemble system: design + ops + monitoring",
-      "objectives": "Describe end-to-end system; produce prompts, merge rules, monitoring JSON; post-merge scripts",
-      "paths": {
-        "prompt_template": "https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/prompts/cams_protocol.md",
-        "self_prompt": "https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/prompts/self_prompt.txt"
-      },
-      "ts": "2025-10-12T21:17:30Z"
+        "schema":  "1.0",
+        "items":  [
+                      {
+                          "run":  "run_0005",
+                          "owner":  "shashank",
+                          "topic":  "Generic CAMS chat-based ensemble system: design + ops + monitoring",
+                          "objectives":  "Describe end-to-end system; produce prompts, merge rules, monitoring JSON; post-merge scripts",
+                          "paths":  {
+                                        "prompt_template":  "https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/prompts/cams_protocol.md",
+                                        "self_prompt":  "https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/prompts/self_prompt.txt"
+                                    },
+                          "ts":  "2025-10-12T21:17:30Z"
+                      }
+                  ]
+    },
+    {
+        "run_id":  "run_20251013_03",
+        "topic":  "datalake/aqp box state recovery",
+        "started_at":  "2025-10-13T17:26:01Z"
     }
-  ]
-}
+]

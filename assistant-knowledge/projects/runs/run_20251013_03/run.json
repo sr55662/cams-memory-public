@@ -1,0 +1,23 @@
+﻿{
+    "topic":  "datalake/aqp box state recovery",
+    "started_at":  "2025-10-13T17:26:01Z",
+    "sources":  [
+                    {
+                        "url":  "https://cg-quant-shashank-rastogi-2b3448.s3.us-east-1.amazonaws.com/system/box_verify/run_20251013_02/box_verify_20251013T155356Z.txt",
+                        "name":  "verify.txt",
+                        "kind":  "box-verify"
+                    },
+                    {
+                        "url":  "https://cg-quant-shashank-rastogi-2b3448.s3.us-east-1.amazonaws.com/system/box_verify/run_20251013_02/box_verify_20251013T155356Z.json",
+                        "name":  "verify.json",
+                        "kind":  "box-verify"
+                    }
+                ],
+    "notes":  [
+                  "Initial capture of current EC2 box + lake state.",
+                  "Ports 8088/8099 listening; TigerVNC active (:1, localhost).",
+                  "Unified equities had dict-encoded symbol mismatch; repair scripts added."
+              ],
+    "status":  "in-progress",
+    "run_id":  "run_20251013_03"
+}
