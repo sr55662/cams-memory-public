@@ -1,0 +1,9 @@
+# Paste at `task end` (replace RUN_ID/TOPIC/OBJECTIVES/LESSON_NOTE if needed)
+pwsh -NoProfile -File "$HOME\Desktop\cams-hub\tools\publish_cams_memory.ps1" `
+  -RepoDir "$HOME\Desktop\cams-hub\cams-memory-public" `
+  -RunId "RUN_ID" `
+  -RunSourceDir "$HOME\Desktop\cams-hub\outputs\RUN_ID" `
+  -Owner "shashank" `
+  -Topic "TOPIC" `
+  -Objectives "OBJECTIVES" `
+  -LessonNote "LESSON_NOTE"
