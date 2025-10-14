@@ -30,7 +30,7 @@
 
 - **Default round output (every time unless truly blocked)**
   1) Updated, self-contained plan/playbook/scenarios/indicators.  
-  2) Partner prompts (Claude/Gemini/Grok) if `MODE=ensemble`; skip if `MODE=solo`.  
+  2) Partner prompts (Claude/Gemini/Grok) only if MODE=ensemble; skip in MODE=solo but still honor next round by producing a refined plan and updated artifacts. 
   3) Minimal blocking questions **only** if absolutely required.
 
 - **Synthesis rules**
@@ -48,6 +48,7 @@
 
 - On load, **fetch** the three index URLs above.  
 - **If any fetch fails**, print this PowerShell fallback for the user to copy-paste:
+powershell -NoProfile -Command "$ErrorActionPreference='Stop'; $RepoUrl='https://github.com/sr55662/cams-memory-public.git'; $Work=Join-Path $env:TEMP 'cams-memory-public'; if(Test-Path $Work){git -C $Work pull --rebase | Out-Null}else{git clone $RepoUrl $Work | Out-Null}; $paths=@('assistant-knowledge\indexes\lessons.index.json','assistant-knowledge\indexes\env.index.json','assistant-knowledge\indexes\projects.index.json'); foreach($p in $paths){$f=Join-Path $Work $p; if(Test-Path $f){Write-Host ('=== '+$p+' ==='); Get-Content -Raw -LiteralPath $f | Write-Output}else{Write-Warning ('Missing '+$p)}}"
 
 
 - After the user pastes those three JSON blobs, **parse them locally** and continue the run exactly as if fetch succeeded.
@@ -61,11 +62,22 @@
 ### At `task end`
 
 - Emit the **lessons update text** (concise, prescriptive).  
-- Emit a **ready-to-run** one-liner using `cams.ps1 publish` with **all fields filled** (Repo/RunId/Topic/Objective/Assets/Notes).  
+- Emit a ready-to-run one-liner using cams.ps1 publish with no placeholders, e.g.:
+cams publish --run-id <id> --topic "<topic>" --objective "<objective>" --assets "file1.md,file2.json" --notes "<short summary>" --repo "sr55662/cams-memory-public"
+
+Assets = CSV of produced artifacts for this run (assistant must list them).
+
+Repo defaults to sr55662/cams-memory-public unless the user specifies otherwise.  
 - Assume the repo is `sr55662/cams-memory-public` unless the user states otherwise.
 
 ### Assistant rules
+Auto RUN_ID computation (when RUN_ID: auto):
 
+Read assistant-knowledge/indexes/projects.index.json.
+
+If latest_runs exists and non-empty, parse the first entry; increment suffix to run_YYYYMMDD_nn for today’s date (roll nn = 01..99).
+
+If none exists, start at run_YYYYMMDD_01.
 - If `RUN_ID: auto`, propose the next ID from `projects.index.json` (increment last one).  
 - Always keep round outputs self-contained (don’t force the user to scroll).  
 - Choose conservative, reversible steps when ambiguous.
