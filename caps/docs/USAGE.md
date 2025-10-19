@@ -1,6 +1,7 @@
 # CAMS Chat-Only Helpers (Quick Use)
 
-## Append to lessons.jsonl (dedupe if jq is available)
+## 1) Append to `lessons.jsonl` (dedupe if `jq` is available)
+
 ```powershell
 # jq available (preferred)
 .\caps\tools\jsonl_append.ps1 -SourceJsonl ".\new_lessons.jsonl" -TargetJsonl ".\assistant-knowledge\lessons\global.jsonl" -Key ".title"
