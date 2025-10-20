@@ -8,5 +8,6 @@
   ],
   "latest_runs": [
     "https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/projects/runs/run_20251020_01/run.json"
-  ]
+  ],
+  "active": "https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/projects/Active.json"
 }

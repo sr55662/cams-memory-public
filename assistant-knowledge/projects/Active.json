@@ -1,0 +1,15 @@
+{
+  "run_id": "run_20251020_01",
+  "topic": "testing cams",
+  "objective": "testing the full cams protocall (solo loop validation)",
+  "mode": "solo",
+  "updated_at": "2025-10-20T22:20:00Z",
+  "run_json": "https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/projects/runs/run_20251020_01/run.json",
+  "artifacts": {
+    "first_pass_md": "https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/projects/runs/run_20251020_01/first_pass.md",
+    "final_consensus_md": "https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/projects/runs/run_20251020_01/final_consensus.md",
+    "monitoring_json": "https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/projects/runs/run_20251020_01/monitoring.json",
+    "lessons_jsonl": "https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/projects/runs/run_20251020_01/lessons.jsonl",
+    "env_delta_yaml": "https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/projects/runs/run_20251020_01/env_delta.yaml"
+  }
+}
