@@ -2,6 +2,9 @@
 - Lessons:  https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/indexes/lessons.index.json  
 - Env:      https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/indexes/env.index.json  
 - Projects: https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/indexes/projects.index.json
+- Lessons-All: https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/lessons/all.jsonl
+- Active: https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/projects/Active.json
+
 
 **CAMS commands:**  
 - https://raw.githubusercontent.com/sr55662/cams-memory-public/main/tools/cams.ps1
