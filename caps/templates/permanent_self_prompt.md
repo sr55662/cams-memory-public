@@ -1,6 +1,4 @@
-# Permanent CAMS Self-Bootstrap Prompt — vNext+
-
-**Memory indexes (paste these first in a new chat):**  
+ 
 - Lessons:  https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/indexes/lessons.index.json  
 - Env:      https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/indexes/env.index.json  
 - Projects: https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/indexes/projects.index.json
