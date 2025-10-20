@@ -5,5 +5,8 @@
       "name": "runs_index",
       "url": "https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/projects/runs.index.json"
     }
+  ],
+  "latest_runs": [
+    "https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/projects/runs/run_20251020_01/run.json"
   ]
 }
