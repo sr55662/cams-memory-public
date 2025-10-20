@@ -1,9 +1,9 @@
-﻿{
-    "schema":  "1.0",
-    "items":  [
-                  {
-                      "name":  "runs_index",
-                      "url":  "https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/projects/runs.index.json"
-                  }
-              ]
+{
+  "schema": "1.0",
+  "items": [
+    {
+      "name": "runs_index",
+      "url": "https://raw.githubusercontent.com/sr55662/cams-memory-public/main/assistant-knowledge/projects/runs.index.json"
+    }
+  ]
 }

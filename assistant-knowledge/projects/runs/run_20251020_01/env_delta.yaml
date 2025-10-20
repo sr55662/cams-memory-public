@@ -1,0 +1,9 @@
+env_delta:
+  updated:
+    - key: "tools.cams.version"
+      to: "1.1.0"
+    - key: "profiles.default.timezone"
+      to: "America/New_York"
+  notes:
+    - "Pinned timezone for deterministic timestamps."
+    - "Kept LF for md/json/yaml; CRLF reserved for .ps1."
