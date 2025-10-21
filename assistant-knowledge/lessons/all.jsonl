@@ -1,1 +1,19 @@
-
+{
+  "ts": "2025-10-12T00:00:00Z",
+  "topic": "powertools",
+  "lesson": "PowerShell here-strings must end with '@ on a line by itself at col 1."
+}
+{
+  "when": "2025-10-20",
+  "run_id": "run_20251020_01",
+  "title": "Lock deterministic CAMS scaffold",
+  "lesson": [
+    "Always compute RUN_ID as run_YYYYMMDD_nn; start at 01 each new date and increment sequentially.",
+    "Before publish, verify artifacts_non_empty && monitoring.schema_pass && monitoring.secrets_scan_pass."
+  ],
+  "tags": [
+    "cams",
+    "testing cams",
+    "solo"
+  ]
+}
