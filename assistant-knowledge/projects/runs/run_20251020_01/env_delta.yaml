@@ -1,9 +1,19 @@
 env_delta:
   updated:
-    - key: "tools.cams.version"
-      to: "1.1.0"
-    - key: "profiles.default.timezone"
-      to: "America/New_York"
+    - key: "python.venv.packages.pandas"
+      to: "2.2.2"
+    - key: "python.venv.packages.pyarrow"
+      to: "14.0.2"
+    - key: "python.venv.packages.s3fs"
+      to: "2024.6.1"
+    - key: "paths.backups.layout"
+      to: "datalake/**/backups/*.bak_<UTC>"
+    - key: "catalog.root"
+      to: "s3://cg-quant-shashank-rastogi-2b3448/system/catalog/latest"
+    - key: "secrets.polygon.key_source"
+      to: "aws-ssm:/cgq/polygon_api_key"
   notes:
-    - "Pinned timezone for deterministic timestamps."
-    - "Kept LF for md/json/yaml; CRLF reserved for .ps1."
+    - "Removed dict-encoded `symbol`; enforced `string` for unified equities."
+    - "Avoid `pip --user` inside venv to prevent import ABI drift."
+      # QA outputs mirrored under system/qa.
+    - "QA outputs mirrored under system/qa."

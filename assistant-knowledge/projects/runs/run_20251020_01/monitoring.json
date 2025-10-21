@@ -1,22 +1,12 @@
 {
-  "run_id": "run_20251020_01",
-  "mode": "solo",
-  "checks": {
-    "indexes_reachable": true,
-    "deterministic_run_id": true,
-    "artifacts_defined": true,
-    "secrets_scan_pass": true,
-    "schema_pass": true
-  },
-  "indicators": [
-    {"name":"run_id_regex", "pattern":"^run_20251020_0[1-9]$"},
-    {"name":"required_keys", "keys":["run_id","mode","checks","indicators","timestamp_utc"]},
-    {"name":"secret_scan", "patterns":[
-      "\\bAKIA[0-9A-Z]{16}\\b",
-      "\\b[0-9a-fA-F]{32,64}\\b",
-      "Bearer\\s+[A-Za-z0-9\\-\\._~\\+\\/]+=*",
-      "(?i)\\b(api[_\\-]?key|token|secret)\\b.{0,20}([A-Za-z0-9_\\-]{12,})"
-    ]}
+  "lake_prefixes": [
+    "datalake/equities/polygon_api/daily",
+    "datalake/equities/polygon_api/daily_unified",
+    "datalake/eod/futures_daily"
   ],
-  "timestamp_utc": "2025-10-20T22:10:00Z"
+  "catalog_root": "system/catalog/latest",
+  "qa_root": "system/qa",
+  "checks": {
+    "unified_equities": ["row_count>0", "date_min<=date_max", "symbol_is_string", "monotonic_date"]
+  }
 }

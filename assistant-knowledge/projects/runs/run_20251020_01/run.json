@@ -1,17 +1,19 @@
 {
-  "run_id": "run_20251020_01",
-  "topic": "testing cams",
-  "objective": "testing the full cams protocall (solo loop validation)",
-  "started_at": "2025-10-20T22:08:00Z",
-  "finished_at": "2025-10-20T22:10:30Z",
+  "run_id": "run_20251013_04",
+  "topic": "datalake/aqp box state recovery",
+  "objective": "Stabilize unified equities, generate lake catalog, run Polygon incremental daily update, and publish QA+run artifacts for future recovery.",
+  "started_at": "2025-10-13T20:40:00Z",
+  "finished_at": "2025-10-13T21:10:00Z",
   "mode": "solo",
   "artifacts": [
     {"name":"first_pass.md","kind":"doc"},
     {"name":"final_consensus.md","kind":"doc"},
-    {"name":"monitoring.json","kind":"config"}
+    {"name":"monitoring.json","kind":"config"},
+    {"name":"lessons.jsonl","kind":"doc"},
+    {"name":"env_delta.yaml","kind":"config"}
   ],
   "notes": [
-    "CAMS solo dry-run validated with deterministic run_id and monitoring checks.",
-    "No dissent; schema and secret-scan gates passed pre-publish."
+    "Fixed dictionary-encoded symbol type; restored read compatibility across SPY/QQQ/IWM/TLT/GLD.",
+    "Established catalog + QA conventions; secrets via SSM only."
   ]
 }
